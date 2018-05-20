@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<title>Document</title>
+
+	<link rel="stylesheet" href="stylesheets/game-style.css">
+
+</head>
+<body>
+	<div class="container-flex">
+		<div class="flex-el">
+			<h1>The Game Cutch the Ball!</h1>
+			<div class="d-flex">
+				<div class="flex-d-el">
+					<h2>How to play:</h2>
+					<ol>
+						<li>Move your computer mouse to move the Circle</li>
+						<li>Cutch the balls in Circle</li>
+						<li>Earn points</li>
+						<li>Beat the records</li>
+						<li>Have fun!</li>
+					</ol>
+				</div>
+				<div class="flex-d-el">
+					<h2>Hotkeys:</h2>
+					<ul>
+						<li>Space - pause</li>
+						<li>Ecs - restart</li>
+					</ul>
+				</div>
+			</div>
+			<button id="start">Start</button>
+			<small>(v.1.0.0)</small>
+		</div>
+	</div>
+
+	<div class="pause-block" id="pause-block">
+		<div class="pause-icon"></div>
+	</div>
+
+	<div class="pause-block" id="repeat-block">
+		<div class="mbStart">
+			<button id="mbStartButton">Try again?</button>
+		</div>
+	</div>
+
+	<div class="pause-block" id="question-block">
+		<div class="mbStart">
+			<h2>Do you want to reset?</h2>
+			<button id="Yes">Yes</button><button id="No">No</button>
+		</div>
+	</div>
+
+	<canvas></canvas>
+
+	<script src="scripts/game-script.js"></script>
+</body>
+</html>
