@@ -25,12 +25,12 @@ addEventListener('resize', () => {
 	init();
 })
 
-// addEventListener("keydown", event => {
-// 	if (event.which == 72) {
-// 		countOfLifes = 5;
-//   	heartArray.forEach(heart => {heart.color = heartColors[0];});
-// 	}
-// });
+addEventListener("keydown", event => {
+	if (event.which == 72) {
+		countOfLifes = 5;
+  	heartArray.forEach(heart => {heart.color = heartColors[0];});
+	}
+});
 
 let colors = [
 	'#FF3D00',
